@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   s.source_files = "ios/**/*.{h,m,mm,swift}"
   s.dependency "Ver-ID-UI", "1.12.4"
   s.dependency "Ver-ID-SDK-Identity", "3.0.1"
-
+  s.dependency "Ver-ID", "~>2.3.2" 
   s.dependency "React"
 end
